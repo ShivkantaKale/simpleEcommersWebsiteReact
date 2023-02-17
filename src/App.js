@@ -3,7 +3,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useThemeHook } from './GlobalComponents/ThemeProvider';
 import Header from './components/Header';
-import { Router } from "@reach/router";
+//import { Router } from "@reach/router";
+import { Routes, Route} from "react-router-dom";
+
 
 //Pages
 import Home from './Pages/Home';
